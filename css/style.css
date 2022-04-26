@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fafafa;
+    font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.login{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+}
+
+.login img{
+    width: 180px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.login input{
+    width: 250px;
+    padding: 11px;
+    margin-bottom: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    border-radius: 2.5px;
+    font-size: 12px;
+    color: rgb(215, 215, 215);
+}
+
+.login input::placeholder{
+    color: rgb(150, 150, 150);  
+    font-size: 12px;
+    font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+}
+
+.login button{
+    width: 278px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b2dffc;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.login p{
+    font-size: 13px;
+    color: #8e8e9d;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login p::before{
+    content: "";
+    height: 1px;
+    width: 115px;
+    background-color: #dbdbdb;
+    margin-right: 15px;
+}
+
+.login p::after{
+    content: "";
+    height: 1px;
+    width: 115px;
+    background-color: #dbdbdb;
+    margin-left: 15px;
+}
+
+.facebook{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #385185;
+}
+
+.esqueceu-senha{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.cadastro{
+    width: 350px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    padding: 20px 0; 
+    font-size: 14px;
+}
+
+.cadastre{
+    text-decoration: none;
+    color: #5295f6;
+    font-weight: 600;
+}
+
+.download{
+    font-size: 14px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download img{
+    width: 130px;
+}
+
+.download img:hover{
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+}
+
+.footer li:hover{
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.footer-copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-copy p{
+    margin-right: 10px;
+}
